@@ -1,6 +1,7 @@
 # multitools
 
-A new Flutter project.
+ログ調査などで多用するURLエンコードやJSON、その組み合わせ、場合によってはunicodeエンコードなどが含まれるため、１アプリ内で復号して読めるようにすることを目的としたもの。
+Macではほとんど類似のものがないため作成した、がモチベーション。
 
 ## Getting Started
 
@@ -14,3 +15,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Usage
+
+- Run  
+  `flutter run -d macos`
+
+- Build  
+  以下のコマンドを実行後 `build/macos/Build/Products/Release` にできるアプリを好きな箇所において利用。  
+  `flutter build macos`
